@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>FileMerger</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GNU Lesser General Public License </license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Will automatically update css and js merged files names if they were changed. </summary>
+    <description>When you set to merge js or css files in one the main problem that magento do not check if file was really changed they check only file names. And even if you clear media/css files magento will generate the same file name for updated files but browsers won't know about changes and will use cached copy. &#xD;
+This extension will fix this problem.</description>
+    <notes>You have to set &#xD;
+System -&gt; Configuration -&gt; Developer -&gt; &#xD;
+Merge JavaScript Files|Merge Css Files&#xD;
+to "Yes" in order to benefit from this extension</notes>
+    <authors><author><name>Sergii Radzishevskyi</name><user>radzserg</user><email>radzserg@gmail.com</email></author></authors>
+    <date>2013-01-08</date>
+    <time>10:28:01</time>
+    <contents><target name="mageetc"><dir name="."><file name="Radz_FileMerger.xml" hash=""/></dir></target><target name="magelocal"><dir name="Radz"><file name="FileMerger" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
