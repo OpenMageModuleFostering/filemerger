@@ -1,0 +1,20 @@
+<config>
+    <modules>
+        <Radz_FileMerger>
+            <version>0.1.0</version>
+        </Radz_FileMerger>
+    </modules>
+
+    <global>
+        <models>
+            <radz_filemerger>
+                <class>Radz_FileMerger_Model</class>
+            </radz_filemerger>
+            <core>
+                <rewrite>
+                    <design_package>Radz_FileMerger_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>

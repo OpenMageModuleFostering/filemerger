@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>FileMerger</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license>GNU Lesser General Public License </license>
     <channel>community</channel>
@@ -14,9 +14,9 @@ System -&gt; Configuration -&gt; Developer -&gt; &#xD;
 Merge JavaScript Files|Merge Css Files&#xD;
 to "Yes" in order to benefit from this extension</notes>
     <authors><author><name>Sergii Radzishevskyi</name><user>radzserg</user><email>radzserg@gmail.com</email></author></authors>
-    <date>2013-01-08</date>
-    <time>10:28:01</time>
-    <contents><target name="mageetc"><dir name="."><file name="Radz_FileMerger.xml" hash=""/></dir></target><target name="magelocal"><dir name="Radz"><file name="FileMerger" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></target></contents>
+    <date>2013-01-14</date>
+    <time>09:38:17</time>
+    <contents><target name="mageetc"><dir name="."><file name="Radz_FileMerger.xml" hash=""/></dir></target><target name="magelocal"><dir name="Radz"><dir name="FileMerger"><dir name="Model"><dir name="Design"><file name="Package.php" hash="34d5ca7073c2cd557d5201d457db389a"/></dir></dir><dir name="etc"><file name="config.xml" hash="81478d0f880a29cf015c8b15b99560ac"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
