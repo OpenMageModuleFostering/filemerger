@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/FileMerger",
+    "name": "OpenMageModuleFostering\/FileMerger",
     "type": "magento-module",
     "license": "GNU-Lesser-General-Public-License-",
     "homepage": "",
     "description": "Will automatically update css and js merged files names if they were changed. ",
     "authors": [
-    {
-        "name": "Sergii Radzishevskyi",
-        "email": "radzserg@gmail.com"
-    }
-],
+        {
+            "name": "Sergii Radzishevskyi",
+            "email": "radzserg@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
